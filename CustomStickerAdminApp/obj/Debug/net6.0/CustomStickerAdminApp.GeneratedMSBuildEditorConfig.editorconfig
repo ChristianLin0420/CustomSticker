@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/christianlin/Desktop/CSU RDI/regular meeting/22_Sep_5/CustomSticker/CustomStickerAdminApp
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/christianlin/Desktop/CSU RDI/regular meeting/22_Sep_5/CustomSticker/CustomStickerAdminApp/Pages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/christianlin/Desktop/CSU RDI/regular meeting/22_Sep_5/CustomSticker/CustomStickerAdminApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

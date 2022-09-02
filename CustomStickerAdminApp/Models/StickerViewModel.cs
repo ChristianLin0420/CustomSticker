@@ -11,7 +11,7 @@ namespace CustomStickerAdminApp.Models {
         
         private string name;
 
-        // public StickerViewModel() { }
+        public StickerViewModel() { }
 
         public StickerViewModel(Sticker sticker) {
             this.Id = sticker.Id;

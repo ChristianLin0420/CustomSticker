@@ -1,8 +1,33 @@
 @page
-@model CustomStickerAdminApp.Models.StickerViewModel
+@* @model IEnumerable<CustomStickerAdminApp.Models.StickerViewModel>; *@
 
 @{
-    ViewData["Title"] = "Sticker page";
+    ViewBag.Title = "Sticker";
 }
 
 <h2>Stickers</h2>
+
+<p>
+    @Html.ActionLink("Add new", "Create", null, new { @class = "btn btn-default" })
+    <button id="btnPublish" class="btn btn-default">Update messaging extension</button>
+    <div id="divPublishMessage"></div>
+</p>
+
+<table class="table table-bordered table-responsive table-hover">  
+    <tr>  
+        <th>Id </th>  
+        <th>ImageUri </th>  
+        <th>Name </th>  
+        <th>Keywords </th>  
+        <th>Index</th> 
+    </tr>  
+    @for (int i = 0; i < 3; i++)  {  
+        <tr>  
+            <td>Id</td>  
+            <td>ImageUri</td>  
+            <td>Name</td>  
+            <td>Keywords</td>  
+            <td>Index</td>  
+        </tr>  
+    }  
+</table>
